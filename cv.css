@@ -1,28 +1,37 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
 
 /* Nếu bạn muốn trang web hiển thị ở chính giữa trang giấy A4 */
 .container {
-    width: 794.88px;   /* Chiều rộng tương ứng với khổ giấy A4 */
-    height:  1122.24px;/* Chiều cao tương ứng với khổ giấy A4 */
-    margin: 0 auto;     /* Căn giữa trang web theo chiều ngang */
+    width: 794.88px;
+    /* Chiều rộng tương ứng với khổ giấy A4 */
+    height: 1122.24px;
+    /* Chiều cao tương ứng với khổ giấy A4 */
+    margin: 0 auto;
+    /* Căn giữa trang web theo chiều ngang */
     background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
 }
+
 /*start container1*/
-.container1{
+.container1 {
     width: 300px;
     height: 1122.24px;
-    padding-top:20px;;
+    padding-top: 20px;
+    ;
     background-color: #23395e;
 }
-.avatar{
+
+.avatar {
     border-radius: 50%;
     width: 100px;
     height: 100px;
@@ -31,17 +40,20 @@ html{
     margin: 20px 20px;
 
 }
-.container1 h2{
+
+.container1 h2 {
     color: #ffffff;
     font-weight: bold;
     margin: 0 20px 10px 20px;
 }
-.container1 h3{
+
+.container1 h3 {
     color: #ffffff;
     font-weight: 600;
-    margin:30px 20px 10px 20px;
+    margin: 30px 20px 10px 20px;
 }
-#major{
+
+#major {
     color: #ffffff;
     font-size: 100%;
     font-weight: 100;
@@ -49,31 +61,62 @@ html{
     margin-bottom: 40px;
     margin-left: 20px;
 }
-.info{
+
+.info {
     padding: 10px;
     width: 270px;
     background-color: #ffffff;
-    margin: 8px  auto;
+    margin: 8px auto;
     border-radius: 10px;
     font-weight: 500;
 }
-.container1 ul{
+
+.container1 ul {
     color: #ffffff;
     margin-left: 50px;
 }
-.container1 ul li,.container1 ul li>a{
+
+.container1 ul li,
+.container1 ul li>a {
     padding: 5px;
     color: #ffffff;
 }
-.link{
-    margin-left: 50px;
+
+.link {
+    margin: 0px 0px 10px 40px;
 }
-.link a{
+
+.link a {
     color: #ffffff;
 }
-.link a img{
+
+.link a img {
     width: 30px;
     height: 30px;
     object-fit: cover;
     margin-right: 10px;
+
+}
+
+/*end css Container1*/
+.container2 {
+    width: 470px;
+    height: 1122.24px;
+    padding-top: 20px;
+    background-color: antiquewhite;
+}
+.container2 h3{
+    color: #23395e;
+    font-weight: 700;
+    margin: 30px 20px 5px 20px;
+}
+.decoration{
+    width: 50px;
+    height: 4px;
+    background-color: #23395e;
+    border-radius: 5px;
+    margin:0px 0px 20px 20px;
+}
+.container2 p{
+    margin-left: 20px;
 }
