@@ -27,7 +27,7 @@ html {
     width: 300px;
     height: 1122.24px;
     padding-top: 20px;
-    ;
+    padding-bottom: 20px;
     background-color: #23395e;
 }
 
@@ -103,6 +103,7 @@ html {
     width: 470px;
     height: 1122.24px;
     padding-top: 20px;
+    padding-bottom: 20px;
     background-color: antiquewhite;
 }
 .container2 h3{
